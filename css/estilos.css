@@ -1,0 +1,258 @@
+/**
+ * Hoja de Estilo de Pagina Web
+ */
+
+/**
+ * Body
+ */
+body {
+    background-color: white;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+/**
+ * Contenedor
+ */
+.container {
+    width:  1200px;
+    height:  auto;
+    display: block;
+    margin: 40px auto;
+}
+
+
+/**
+ * Logo
+ */
+.logo {
+    margin-top: -10px;
+    text-align:  right;
+    float:  right;
+}
+
+/**
+ * MEnu
+ */
+.menu {
+    background-color: #6a3ee0;
+    width:  1100px;
+    height: 30px;
+    display: block;
+    margin: 50px auto;
+    padding:  10px 10px;
+}
+
+.nav > a {
+    padding: 5px 50px;
+    text-decoration: none;
+    color: White;
+    font-size: 25px;
+}
+
+.nav > a:hover {
+    text-decoration: underline;
+}
+
+/**
+ * Tabla de Inicio
+ */
+.inicio-Tabla{
+    border-collapse: collapse;
+}
+
+.inicio-Tabla td {
+    
+    background-color: #df694f;
+    border: 1px solid orange;
+}
+
+/**
+ * Texto Justificado
+ */
+.justify {
+    text-align: justify;
+}
+
+/**
+ * H3 de Azul
+ */
+h3 {
+    color:  #4091D8;
+}
+
+/**
+ * Nosotros
+ */
+.nosotros-table {
+    border-collapse: collapse;
+}
+
+.nosotros-table td {
+    padding:  0 50px;
+}
+
+/**
+ * Nuestro Cursos
+ */
+.cursos-Titulos {
+    width: 200px;
+    border-collapse: collapse;
+    display: block;
+    margin:  0 auto;
+    position: relative;
+}
+
+.cursos-Titulos td {
+    border: 1px solid #000;
+    text-align:  center;
+    padding:  10px;
+}
+
+.nuestroCursoTable2 {
+    width: 1000px;
+    background-color: #DAD8D8 ;
+    border-collapse: collapse;
+    display:  block;
+    margin: 0 auto;
+    position:  relative;
+}
+
+.nuestroCursoTable2 td {
+    padding:  10px;
+    text-align: center;
+}
+
+.center {
+    text-align:  center;
+}
+
+/**
+ * Comunicate con nosotros
+ */
+.comunicanteBanner {
+    width:  1000px;
+    border-collapse: collapse;
+    background-color: #DAD8D8;
+    display:  block;
+    margin: 0 auto;
+    position:  relative;
+}
+
+.comunicanteBanner td {
+    border:  1px solid blue;
+}
+
+.textoComunicate{
+    width:  1000px;
+    border-collapse:  collapse;
+    display:  block;
+    margin: 0 auto;
+    position:  relative;
+}
+
+.textoComunicate td {
+    border:  3px solid purple;
+    width: 500px;
+}
+
+.encuenta {
+    background-color: #6a3ee0;
+    color: #fff;
+    text-align:  center;
+}
+
+/**
+ * Empleo
+ */
+.empleo-Titulos {
+    width: 400px;
+    border-collapse: collapse;
+    display: block;
+    margin:  0 auto;
+    position: relative;
+}
+
+.empleo-Titulos td{
+    background-color:  #000;
+    color:  #fff;
+    font-size:  24px;
+    padding: 2px 25px;
+    letter-spacing: 2px;
+}
+
+form {
+	width: 500px;
+	display: block;
+	margin: 0 auto;
+	position: relative;
+}
+
+.formulario {
+    display: block;
+    width: 100%;
+    height: 25px;
+    padding: 7px 12px;
+    font-size: 13px;
+    line-height: 1.5384616;
+    color: #333333;
+    background-color: #fff;
+    border: 1px solid #ddd;
+}
+
+.formularioSe {
+    display: block;
+    width: 100%;
+    height: 35px;
+    padding: 7px 12px;
+    font-size: 13px;
+    line-height: 1.5384616;
+    color: #333333;
+    background-color: #fff;
+    border: 1px solid #ddd;
+}
+
+.block {
+    width:  430px;
+    padding:  10px;
+    float: left;
+    margin: 0 10px;
+}
+
+.radio {
+    position: relative;
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.button {
+    clear: both;
+    width:  600px;
+    display: block;
+    margin:  0 auto;
+    position: relative;
+}
+
+.button button {
+    display: inline-block;
+    margin-bottom: 0;
+    font-weight: normal;
+    text-align: center;
+    vertical-align: middle;
+    cursor: pointer;
+    background-image: none;
+    border: 1px solid transparent;
+    white-space: nowrap;
+    padding: 7px 12px;
+    font-size: 13px;
+    line-height: 1.5384616;
+    border-radius: 3px;
+}
+/* Clear floats */
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
